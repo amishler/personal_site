@@ -17,7 +17,7 @@ last_name: Mishler
 superuser: true
 
 # Role/position/tagline
-role: Senior Researcher
+role: AI Research Lead/VP
 
 # Organizations/Affiliations to show in About widget
 organizations:
