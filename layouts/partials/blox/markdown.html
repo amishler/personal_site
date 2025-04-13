@@ -1,23 +1,21 @@
+{{/* Hugo Blox: Markdown – clean override with reliable centering */}}
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $title := $block.content.title | emojify | $page.RenderString }}
 {{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
 {{ $design := $block.design }}
-{{ $wrapper_class := $design.wrapper_class | default "max-w-4xl mx-auto" }}
-{{ $text_class := $design.css_class | default "prose prose-slate prose-sm lg:prose-base dark:prose-invert" }}
+{{ $wrapper_class := $design.wrapper_class | default "w-full px-6" }}
+{{ $text_class := $design.css_class | default "prose prose-slate prose-sm lg:prose-base dark:prose-invert max-w-4xl mx-auto" }}
 
-<div class="{{ $wrapper_class }} px-6">
-
+<div class="{{ $wrapper_class }}">
   {{ with $title }}
     <h2 class="mb-6 text-center text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
       {{ . }}
     </h2>
   {{ end }}
-
   {{ with $text }}
     <div class="{{ $text_class }}">
       {{ . }}
     </div>
   {{ end }}
-
 </div>
