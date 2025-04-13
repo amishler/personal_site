@@ -49,16 +49,20 @@ interests:
 education:
   - area: PhD in Statistics
     institution: Carnegie Mellon University
-    date: 2021
+    date_start: 2021
+    date_end: 2021
   - area: MS in Statistics
     institution: Carnegie Mellon University
-    date: 2017
+    date_start: 2017
+    date_end: 2017
   - area: BS in Math
     institution: University of Maryland
-    date: 2016
+    date_start: 2016
+    date_end: 2016
   - area: BA in Linguistics
     institution: University of Michigan
-    date: 2009
+    date_start: 2009
+    date_end: 2009
     
 work:
   - position: AI Research Lead/VP
