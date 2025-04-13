@@ -19,17 +19,7 @@ sections:
         text: Download CV
         url: uploads/cv_alan_mishler.pdf
     design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+      columns: '1'
   - block: experience
     id: experience
     content:
