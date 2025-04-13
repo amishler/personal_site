@@ -1,17 +1,18 @@
 {{/* Custom override: only show work experience, not education */}}
 
 {{ $author := site.GetPage "authors/admin" }}
-{{ if $author.Work }}
+{{ with $author.Params.work }}
   <section id="experience" class="blox-section">
     <div class="container">
       <h2 class="section-heading">Experience</h2>
-      {{ range $author.Work }}
+      {{ range . }}
         <div class="experience-item">
           <h3>{{ .position }}</h3>
-          <p><strong>{{ .company_name }}</strong>{{ with .date_start }} ({{ . }}{{ with $.date_end }} – {{ . }}{{ end }}){{ end }}</p>
+          <p><strong>{{ .company_name }}</strong>{{ with .date_start }} ({{ . }}{{ with .date_end }} – {{ . }}{{ end }}){{ end }}</p>
           {{ with .summary }}<p>{{ . }}</p>{{ end }}
         </div>
       {{ end }}
     </div>
   </section>
 {{ end }}
+
