@@ -1,0 +1,20 @@
+{{/* Hugo Blox: Markdown — Modified to allow width overrides */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | emojify | $page.RenderString }}
+{{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
+{{ $design := $block.design }}
+{{ $wrapper_class := $design.wrapper_class | default "max-w-prose mx-auto" }}
+{{ $text_class := $design.css_class | default "prose prose-slate lg:prose-xl dark:prose-invert max-w-prose" }}
+
+<div class="flex flex-col items-center {{ $wrapper_class }} gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    {{ $title }}
+  </div>
+
+  {{ with $text }}
+    <div class="{{ $text_class }}">{{ . }}</div>
+  {{ end }}
+
+</div>
