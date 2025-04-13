@@ -136,7 +136,7 @@ sections:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       wrapper_class: max-w-5xl mx-auto
       css_class: prose-sm
-      columns: '1'
+      columns: '2'
   - block: collection
     content:
       title: Recent Publications
