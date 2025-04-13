@@ -7,7 +7,7 @@
 <section id="{{ $block.id | default "about" }}" class="section">
   <div class="container">
     {{ with $block.content.title }}
-      <h2 class="section-title">About me (DEBUG){{ . }}</h2>
+      <h2 class="section-title">{{ . }}</h2>
     {{ end }}
 
     <div class="content">
