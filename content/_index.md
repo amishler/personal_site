@@ -134,8 +134,8 @@ sections:
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      wrapper_class: max-w-5xl mx-auto
-      css_class: prose-sm
+      wrapper_class: max-w-4xl mx-auto
+      css_class: prose prose-neutral prose-sm lg:prose-base dark:prose-invert
       columns: '2'
   - block: collection
     content:
