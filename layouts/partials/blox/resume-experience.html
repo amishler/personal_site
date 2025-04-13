@@ -64,7 +64,7 @@
 </div>
 {{ end }}
 
-{{ if $person.education }}
+<!-- {{ if $person.education }}
 <div class="w-full">
   <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ i18n "education" }}</h3>
     <ol class="relative border-s border-gray-200 dark:border-gray-700">
@@ -101,6 +101,16 @@
       {{ end }}
     </ol>
 </div>
+{{ end }} -->
+
+{{/* Disable education section */}}
+{{ if false }}
+  <div class="mt-12 first:mt-0">
+    <h2 class="section-title">{{ i18n "education" }}</h2>
+    {{ range $person.education }}
+      ...
+    {{ end }}
+  </div>
 {{ end }}
 
 </div>
