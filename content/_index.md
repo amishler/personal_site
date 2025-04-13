@@ -86,6 +86,7 @@ sections:
         color: '#f9f9f9'  # Light warm gray
   - block: markdown
     id: news
+    css_class: prose-sm max-w-5xl
     content:
       title: News &amp; Events
       # subtitle: My subtitle
