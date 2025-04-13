@@ -134,9 +134,7 @@ sections:
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      wrapper_class: w-full max-w-4xl mx-auto
-      css_class: prose prose-neutral prose-sm lg:prose-base dark:prose-invert
-      columns: '2'
+      css_class: prose prose-neutral prose-sm dark:prose-invert max-w-3xl mx-auto
   - block: collection
     content:
       title: Recent Publications
