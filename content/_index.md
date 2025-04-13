@@ -90,7 +90,7 @@ sections:
           description: Designed, conducted, and analyzed experiments in areas such as psycholinguistics, speech perception, and signal detection.          
     design:
       columns: '2'
-- block: markdown
+  - block: markdown
     id: news
     content:
       title: News &amp; Events
