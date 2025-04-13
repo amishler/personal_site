@@ -114,4 +114,3 @@ work:
 I am an AI Research Lead/VP at J.P. Morgan AI Research in New York City. My recent research spans problems in causal inference, optimal adaptive experimental design, and algorithmic fairness. Prior to joining J.P. Morgan, I was a PhD student in the Department of Statistics & Data Science at Carnegie Mellon University, where I worked with <a href="http://www.ehkennedy.com/">Edward Kennedy</a> and <a href="https://www.andrew.cmu.edu/user/achoulde/">Alexandra Chouldechova</a> on causal inference problems related to algorithmic fairness.
 
 During my PhD, I completed summer internships in data science at Google (in 2018 and 2019) and Box (in 2017). Before starting my PhD, I worked as a Senior Faculty Research Specialist at the Center for Advanced Study of Language at the University of Maryland, where I conducted research in areas such as psycholinguistics, speech perception, and signal detection theory.
-{style="text-align: justify;"}
