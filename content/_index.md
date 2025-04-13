@@ -86,7 +86,6 @@ sections:
         color: '#f9f9f9'  # Light warm gray
   - block: markdown
     id: news
-    css_class: prose-sm max-w-full md:max-w-3xl
     content:
       title: News &amp; Events
       # subtitle: My subtitle
@@ -135,6 +134,7 @@ sections:
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
+      css_class: prose-sm max-w-full md:max-w-3xl
       columns: '2'
   - block: collection
     content:
