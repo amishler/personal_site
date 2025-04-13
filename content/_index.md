@@ -20,6 +20,8 @@ sections:
         url: uploads/cv_alan_mishler.pdf
     design:
       columns: '1'
+      background:
+        color: '#ffffff'  # White
   - block: experience
     id: experience
     content:
@@ -80,6 +82,39 @@ sections:
           description: Designed, conducted, and analyzed experiments in areas such as psycholinguistics, speech perception, and signal detection.          
     design:
       columns: '2'
+      background:
+        color: '#f9f9f9'  # Light warm gray
+  - block: collection
+    id: news
+    content:
+      title: News & Events
+      subtitle: ''
+      text: ''
+      # Page type to display. E.g. post, talk, publication...
+      page_type: post
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: date-title-summary
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
+      background:
+        color: '#ffffff'  # White
   - block: markdown
     id: news
     content:
@@ -131,35 +166,6 @@ sections:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'
-  - block: collection
-    id: news
-    content:
-      title: News & Events
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
   - block: collection
     content:
       title: Recent Publications
