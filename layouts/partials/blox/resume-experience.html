@@ -1,18 +1,25 @@
-{{/* Custom override: only show work experience, not education */}}
+{{/* Custom override to show only work, not education */}}
 
-{{ $author := site.GetPage "authors/admin" }}
-{{ with $author.Params.work }}
-  <section id="experience" class="blox-section">
-    <div class="container">
-      <h2 class="section-heading">Experience</h2>
-      {{ range . }}
-        <div class="experience-item">
-          <h3>{{ .position }}</h3>
-          <p><strong>{{ .company_name }}</strong>{{ with .date_start }} ({{ . }}{{ with .date_end }} – {{ . }}{{ end }}){{ end }}</p>
-          {{ with .summary }}<p>{{ . }}</p>{{ end }}
+{{ $author := site.GetPage "authors" "admin" }}
+{{ if and $author (isset $author.Params "work") }}
+
+<section id="experience" class="blox-section">
+  <div class="container">
+    <h2 class="section-heading">Experience</h2>
+    <div class="timeline">
+      {{ range $author.Params.work }}
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="heading">{{ .date_start }}{{ with .date_end }} – {{ . }}{{ end }}</p>
+            <h3 class="title is-5">{{ .position }}</h3>
+            <p><strong>{{ .company_name }}</strong></p>
+            {{ with .summary }}<p>{{ . }}</p>{{ end }}
+          </div>
         </div>
       {{ end }}
     </div>
-  </section>
-{{ end }}
+  </div>
+</section>
 
+{{ end }}
