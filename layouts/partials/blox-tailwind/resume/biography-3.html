@@ -1,0 +1,31 @@
+{{/* Override of resume-biography-3 to show only date_end */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $person := site.GetPage "authors" $page.Params.author | default site.GetPage "authors/admin" }}
+{{ $education := $person.Params.education }}
+
+<section id="{{ $block.id | default "biography" }}" class="section">
+  <div class="container">
+    {{ with $block.content.title }}
+      <h2 class="section-title">{{ . }}</h2>
+    {{ end }}
+
+    <div class="content">
+      {{ $person.Content }}
+
+      {{ if $education }}
+        <h3 class="mt-8 mb-4 text-lg font-semibold">Education</h3>
+        <ul>
+          {{ range $education }}
+            <li class="mb-2">
+              <strong>{{ .area }}</strong>, {{ .institution }}
+              {{ with .date_end }}
+                <span class="text-muted">({{ time . | time.Format "2006" }})</span>
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+  </div>
+</section>
