@@ -49,15 +49,19 @@ interests:
 education:
   - area: PhD in Statistics
     institution: Carnegie Mellon University
+    date_start: ''
     date_end: 2021
   - area: MS in Statistics
     institution: Carnegie Mellon University
+    dat_start: ''
     date_end: 2017
   - area: BS in Math
     institution: University of Maryland
+    date_start: ''
     date_end: 2016
   - area: BA in Linguistics
     institution: University of Michigan
+    date_start: ''
     date_end: 2009
     
 work:
