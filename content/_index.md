@@ -134,7 +134,8 @@ sections:
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      css_class: prose-sm max-w-full md:max-w-4xl lg:max-w-5xl mx-auto
+      width: wide
+      css_class: prose-sm
       columns: '1'
   - block: collection
     content:
