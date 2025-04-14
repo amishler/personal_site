@@ -35,10 +35,16 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/amishler
+    label: GitHub
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/alanmishler
+    label: LinkedIn
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=qSvw_8oAAAAJ&hl=en
+    label: Google Scholar
+  - icon: file-lines
+    url: files/cv.pdf
+    label: Download CV
 
 interests:
   - Causal Inference
