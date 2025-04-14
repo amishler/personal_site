@@ -43,7 +43,7 @@ profiles:
     url: https://scholar.google.com/citations?user=qSvw_8oAAAAJ&hl=en
     label: Google Scholar
   - icon: academicons/cv
-    url: static/uploads/cv_alan_mishler.pdf
+    url: uploads/cv_alan_mishler.pdf
     label: Download CV
 
 interests:
