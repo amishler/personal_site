@@ -1,6 +1,26 @@
-/* Style all social icons under the name section */
+/* --- Profile icon layout and spacing --- */
+.network-icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.network-icon li {
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Icon color and size consistency --- */
 .network-icon a svg {
   color: #2563eb; /* Tailwind blue-600 */
+  height: 1.5rem;
+  width: 1.5rem;
+  vertical-align: middle;
   transition: color 0.2s ease-in-out;
 }
 
@@ -8,31 +28,8 @@
   color: #1d4ed8; /* Tailwind blue-700 */
 }
 
-/* Reset weird width of the CV icon */
+/* --- Fix CV icon spacing --- */
 .ai-cv {
-  width: 1em !important;
-  margin-left: -0.25em;
+  width: 1.1rem !important;
+  margin-left: -0.2rem;
 }
-
-
-/* .network-icon li {
-  display: inline-block;
-  margin-right: 0.5rem;
-}
-
-.network-icon li:last-child {
-  margin-right: 0;
-}
-
-.network-icon {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.network-icon svg {
-  display: block;
-  vertical-align: middle;
-} */
