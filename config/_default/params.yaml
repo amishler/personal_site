@@ -36,6 +36,7 @@ header:
     show_theme_chooser: true
     logo:
       text: "Alan Mishler"
+    show_day_night: false
 
 # Site footer
 footer:
