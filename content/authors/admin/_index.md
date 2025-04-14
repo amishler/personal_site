@@ -116,7 +116,7 @@ work:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 ---
 
-## About Me
+## About
 
 I am an AI Research Lead/VP at J.P. Morgan AI Research in New York City. My recent research spans problems in causal inference, optimal adaptive experimental design, and algorithmic fairness. Prior to joining J.P. Morgan, I was a PhD student in the Department of Statistics & Data Science at Carnegie Mellon University, where I worked with <a href="http://www.ehkennedy.com/">Edward Kennedy</a> and <a href="https://www.andrew.cmu.edu/user/achoulde/">Alexandra Chouldechova</a> on causal inference problems related to algorithmic fairness.
 
