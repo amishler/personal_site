@@ -146,5 +146,5 @@ sections:
     design:
       view: citation
       background:
-        color: '#ffffff'  # White
+        color: '#f9f9f9'  # White
 ---
