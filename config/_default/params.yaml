@@ -58,3 +58,8 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+# Custom CSS
+assets:
+  custom_css:
+    - css/custom.css
