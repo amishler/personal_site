@@ -1,4 +1,14 @@
+/* Style all social icons under the name section */
+.network-icon a svg {
+  color: #2563eb; /* Tailwind blue-600 */
+  transition: color 0.2s ease-in-out;
+}
 
+.network-icon a:hover svg {
+  color: #1d4ed8; /* Tailwind blue-700 */
+}
+
+/* Fix weird spacing for CV icon */
 .network-icon li:last-child {
   margin-left: -0.5rem;
 }
