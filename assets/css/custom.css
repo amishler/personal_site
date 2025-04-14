@@ -7,3 +7,7 @@
 .network-icon a:hover svg {
   color: #1d4ed8; /* Tailwind blue-700 */
 }
+
+.network-icon a svg {
+  height: 1.5rem;
+}
