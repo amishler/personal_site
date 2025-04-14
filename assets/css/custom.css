@@ -11,3 +11,13 @@
 .network-icon a svg {
   height: 1.5rem;
 }
+
+/* Fix inconsistent spacing between profile icons (e.g. CV icon) */
+.network-icon li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.network-icon li:last-child {
+  margin-right: 0;  /* avoid extra space after last icon */
+}
