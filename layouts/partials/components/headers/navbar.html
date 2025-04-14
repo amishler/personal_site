@@ -164,8 +164,8 @@
           <a class="nav-link js-search" href="#" aria-label="{{ i18n "search" }}"><i class="fas fa-search" aria-hidden="true"></i></a>
         </li>
         {{ end }}
-<!-- 
-        {{ $show_day_night := site.Params.header.navbar.show_day_night | default true }}
+
+        {{ $show_day_night := site.Params.header.navbar.show_day_night | default false }}
         {{ $has_day_night_themes := (and site.Params.appearance.theme_day site.Params.appearance.theme_night) }}
         {{ if and $has_day_night_themes $show_day_night }}
         <li class="nav-item dropdown theme-dropdown">
@@ -184,7 +184,7 @@
             </a>
           </div>
         </li>
-        {{ end }} -->
+        {{ end }}
 
         {{ $show_translations := site.Params.header.navbar.show_translations | default true }}
         {{ if .IsTranslated | and $show_translations }}
