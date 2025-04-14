@@ -1,42 +1,20 @@
-/* === Base icon layout: keep icons tight and even === */
-.network-icon {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-/* === Remove inconsistencies in icon spacing === */
-.network-icon li {
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-}
-
-.network-icon a {
-  display: inline-flex;
-  align-items: center;
-}
-
-/* === Force icon size and alignment === */
-.network-icon svg {
-  width: 1.5rem;
-  height: 1.5rem;
-  vertical-align: middle;
-  display: block;
-  color: #2563eb; /* blue-600 */
+/* Style all social icons under the name section */
+.network-icon a svg {
+  color: #2563eb; /* Tailwind blue-600 */
   transition: color 0.2s ease-in-out;
 }
 
 .network-icon a:hover svg {
-  color: #1d4ed8; /* blue-700 on hover */
+  color: #1d4ed8; /* Tailwind blue-700 */
 }
 
-/* === FIX: Pull in CV icon to eliminate extra gap === */
-.ai-cv {
-  transform: translateX(-0.35rem);
+/* 🔧 Fix the weird width of the ai-cv SVG icon */
+.network-icon svg.ai-cv {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: -0.3rem;
+  margin-right: 0;
+  transform: scale(1);
+  vertical-align: middle;
+  display: inline-block;
 }
