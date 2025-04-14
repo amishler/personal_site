@@ -8,16 +8,18 @@
   color: #1d4ed8; /* Tailwind blue-700 */
 }
 
-.network-icon a svg {
-  height: 1.5rem;
-}
-
-/* Fix inconsistent spacing between profile icons (e.g. CV icon) */
 .network-icon li {
   display: inline-block;
   margin-right: 0.5rem;
 }
 
 .network-icon li:last-child {
-  margin-right: 0;  /* avoid extra space after last icon */
+  margin-right: 0;
 }
+
+.network-icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  vertical-align: middle;
+}
+
