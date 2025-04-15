@@ -15,4 +15,6 @@ publication: '*Proceedings of the AAAI Conference on Artificial Intelligence*'
 links:
 - name: URL
   url: https://doi.org/10.1609/aaai.v38i14.29545
+- name: arXiv
+  url: https://arxiv.org/abs/2311.00109
 ---
