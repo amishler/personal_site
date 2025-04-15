@@ -139,6 +139,7 @@ sections:
     id: papers
     content:
       title: Recent Papers
+      count: 0
       text: ""
       filters:
         folders:
