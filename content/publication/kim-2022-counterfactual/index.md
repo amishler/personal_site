@@ -10,5 +10,5 @@ publication_types:
 - article-journal
 links:
 - name: arXiv
-  arXiv: https://arxiv.org/abs/2209.09538
+  url: https://arxiv.org/abs/2209.09538
 ---
