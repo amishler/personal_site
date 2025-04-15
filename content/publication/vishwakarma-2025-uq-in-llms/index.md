@@ -8,11 +8,11 @@ authors:
 - Niccolò Dalmasso
 - Natraj Raman
 - Sumitra Ganesh
-date: 2024
+date: 2024-12-31
 publishDate: '2025-04-15T14:56:16.640684Z'
 publication_types:
 - article-journal
 links:
-- name: URL
+- name: arXiv
   url: https://arxiv.org/abs/2501.00555
 ---
