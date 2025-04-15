@@ -138,7 +138,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Recent Papers
+      title: Papers
       count: 0
       text: ""
       filters:
