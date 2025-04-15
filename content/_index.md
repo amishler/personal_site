@@ -22,7 +22,7 @@ sections:
       columns: '1'
       background:
         color: '#ffffff'  # White
-  - block: experience
+  - block: resume-experience
     id: experience
     content:
       title: Experience
