@@ -6,7 +6,7 @@
 # Website name
 title: Alan Mishler
 # Website URL
-baseURL: 'https://alanmishler.com'
+baseURL: 'https://alanmishler.com/'
 
 ############################
 ## LANGUAGE
