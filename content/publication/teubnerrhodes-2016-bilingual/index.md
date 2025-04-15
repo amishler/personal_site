@@ -16,5 +16,5 @@ publication_types:
 publication: '*Cognition*'
 links:
 - name: URL
-  url: http://dx.doi.org/10.1016/j.cognition.2016.02.011
+  url: https://doi.org/10.1016/j.cognition.2016.02.011
 ---
