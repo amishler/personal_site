@@ -12,7 +12,7 @@ date: 2025-03-01
 publishDate: '2025-04-15T14:56:16.687069Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the AAAI Conference on Artificial Intelligence* [Note: The first four authors contributed equally.]'
+publication: '*Proceedings of the AAAI Conference on Artificial Intelligence*. [The first four authors contributed equally]'
 links:
 - name: URL
   url: https://ojs.aaai.org/index.php/AAAI/article/view/33847
