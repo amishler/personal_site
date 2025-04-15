@@ -136,8 +136,9 @@ sections:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       css_class: prose prose-neutral prose-sm dark:prose-invert max-w-3xl mx-auto
   - block: collection
+    id: papers
     content:
-      title: Recent Publications
+      title: Recent Papers
       text: ""
       filters:
         folders:
