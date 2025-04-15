@@ -12,5 +12,5 @@ publication: '*Proceedings of the 38th Annual Conference of the Cognitive Scienc
   Society*'
 links:
 - name: URL
-  url: https://cogsci.mindmodeling.org/2016/papers/0421/index.html
+  url: https://escholarship.org/uc/item/1461m8q3
 ---
