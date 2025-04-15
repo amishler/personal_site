@@ -13,7 +13,10 @@ publishDate: '2025-04-15T14:56:16.687069Z'
 publication_types:
 - article-journal
 publication: '*Proceedings of the AAAI Conference on Artificial Intelligence*'
+note: 'The first four authors contributed equally.'
 links:
 - name: URL
+  url: https://ojs.aaai.org/index.php/AAAI/article/view/33847
+- name: arXiv
   url: https://arxiv.org/abs/2410.14029
 ---
