@@ -3,7 +3,7 @@ title: Challenges in Obtaining Valid Causal Effect Estimates with Machine Learni
   Algorithms
 authors:
 - Ashley I. Naimi
-- Alan E. Mishler
+- Alan Mishler
 - Edward H. Kennedy
 date: '2021-01-01'
 publishDate: '2025-04-15T14:56:16.744527Z'
