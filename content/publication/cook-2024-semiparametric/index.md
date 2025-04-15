@@ -12,4 +12,6 @@ publication: '*Proceedings of the Third Conference on Causal Learning and Reason
 links:
 - name: URL
   url: https://proceedings.mlr.press/v236/cook24a.html
+- name: arXiv
+  url: https://arxiv.org/abs/2311.18274
 ---
