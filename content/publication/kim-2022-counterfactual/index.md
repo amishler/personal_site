@@ -9,6 +9,6 @@ publishDate: '2025-04-15T14:56:16.668488Z'
 publication_types:
 - article-journal
 links:
-- name: URL
+- name: arXiv
   arXiv: https://arxiv.org/abs/2209.09538
 ---
