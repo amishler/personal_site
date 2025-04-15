@@ -13,6 +13,6 @@ publishDate: '2025-04-15T14:56:16.662273Z'
 publication_types:
 - manuscript
 links:
-- name: URL
+- name: arXiv
   url: https://arxiv.org/abs/2206.03256
 ---
