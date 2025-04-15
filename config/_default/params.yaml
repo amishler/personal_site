@@ -8,6 +8,13 @@ appearance:
   mode: light
   color: blue
 
+# To get author name highlighting
+profile:
+  username: admin
+
+content:
+  username: admin
+
 # SEO
 marketing:
   seo:
