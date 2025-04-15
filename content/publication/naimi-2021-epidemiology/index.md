@@ -12,5 +12,7 @@ publication_types:
 publication: '*American Journal of Epidemiology (in press)*'
 links:
 - name: URL
+  url: https://academic.oup.com/aje/article/192/9/1536/6322279
+- name: arXiv
   url: https://arxiv.org/abs/1711.07137
 ---
