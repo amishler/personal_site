@@ -25,6 +25,7 @@ sections:
   - block: experience
     id: experience
     content:
+      username: alan-mishler
       title: Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
@@ -33,53 +34,7 @@ sections:
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Senior Researcher
-          company: J.P. Morgan AI Research
-          company_url: 'https://www.jpmorgan.com/technology/artificial-intelligence'
-          # company_logo: org-gc
-          location: New York, NY
-          date_start: '2021-06-28'
-          date_end: ''
-          # description: |2-
-          #     Responsibilities include:
-
-          #     * Analysing
-          #     * Modelling
-          #     * Deploying
-        - title: Data Scientist Intern
-          company: Google
-          company_url: ''
-          # company_logo: org-x
-          location: Mountain View, CA
-          date_start: '2019-06-01'
-          date_end: '2019-08-31'
-          description: Developed improved methodology to estimate ads lift/incrementality using combined experimental and observational data.
-        - title: Data Scientist Intern
-          company: Google
-          company_url: ''
-          # company_logo: org-x
-          location: New York, NY
-          date_start: '2018-05-01'
-          date_end: '2018-08-31'
-          description: Built a machine learning pipeline to probabilistically match entities in text with entries in a database.
-        - title: Data Science Intern, Business Analytics
-          company: Box, Inc.
-          company_url: ''
-          # company_logo: org-x
-          location: Redwood City, CA
-          date_start: '2017-05-01'
-          date_end: '2017-08-31'
-          description: Built a machine learning pipeline to automatically identify new marketing and sales leads.
-        - title: Senior Faculty Research Specialist
-          company: University of Maryland Center for Advanced Study of Language
-          company_url: ''
-          # company_logo: org-x
-          location: College Park, MD
-          date_start: '2010-09-01'
-          date_end: '2016-08-01'
-          description: Designed, conducted, and analyzed experiments in areas such as psycholinguistics, speech perception, and signal detection.          
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.       
     design:
       columns: '2'
       background:
