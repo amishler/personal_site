@@ -12,4 +12,6 @@ publication: '*Proceedings of the 2021 ACM Conference on Fairness, Accountabilit
 links:
 - name: URL
   url: https://doi.org/10.1145/3531146.3533167
+- name: arXiv
+  url: https://arxiv.org/abs/2109.00173
 ---
