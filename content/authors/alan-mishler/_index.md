@@ -72,14 +72,14 @@ work:
     company_logo: ''
     date_start: '2019-06-01'
     date_end: '2019-08-31'
-    summary: Developed improved methodology to estimate ads lift/incrementality using combined experimental and observational data.
+    summary: Developed improved methodology to estimate ads lift/incrementality using combined experimental and observational data, with both empirical and theoretical results.
   - position: Data Scientist Intern
     company_name: Google
     company_url: ''
     company_logo: ''
     date_start: '2018-05-01'
     date_end: '2018-08-31'
-    summary: Built a machine learning pipeline to probabilistically match entities in text with entries in a database.
+    summary: Built a machine learning pipeline to improve classification of optical character recognition (OCR) outputs.
   - position: Data Science Intern, Business Analytics
     company_name: Box
     company_url: ''
@@ -105,8 +105,8 @@ work:
 
 I am an ML/AI researcher and engineer with experience shipping production systems across LLM optimization, adaptive experimentation, causal inference, and financial ML.
 
-Most recently, I was a Member of Technical Staff at <a href="https://github.com/tensorzero/tensorzero">TensorZero</a>, a leading open-source LLMOps platform, where I designed and shipped algorithms for optimizing agents, including multi-armed bandits for adaptive A/B/n testing, top-$k$ arm identification, and automated evaluation systems, grounded in rigorous statistical theory.
+Most recently, I was a Member of Technical Staff at <a href="https://github.com/tensorzero/tensorzero">TensorZero</a>, a leading open-source LLMOps platform, where I designed and shipped algorithms for optimizing agents, including multi-armed bandits for adaptive A/B/n testing, top-<i>k</i> arm identification, and automated evaluation systems, grounded in rigorous statistical theory.
 
 Prior to TensorZero, I spent four years at <a href="https://www.jpmorganchase.com/about/technology/research/ai">JPMorgan AI Research</a>, most recently as AI Research Lead/VP, conducting research across adaptive experimentation, causal inference, algorithmic fairness, and uncertainty quantification, and shipping production ML models for pricing and causal inference applications.
 
-I received my PhD in Statistics & Data Science from Carnegie Mellon University, where I worked with <a href="http://www.ehkennedy.com/">Edward Kennedy</a> and <a href="https://www.microsoft.com/en-us/research/people/alexandrac/">Alexandra Chouldechova</a> on problems at the intersection of causal inference and algorithmic fairness.
+I received my PhD in Statistics & Data Science from Carnegie Mellon University, where I worked with <a href="http://www.ehkennedy.com/">Edward Kennedy</a> and <a href="https://www.linkedin.com/in/alexandra-chouldechova-46867363/">Alexandra Chouldechova</a> on problems at the intersection of causal inference and algorithmic fairness.
