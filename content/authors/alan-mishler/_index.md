@@ -20,12 +20,10 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: AI Research Lead/VP
+role: ML/AI Researcher
 
 # Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: JPMorgan AI Research
-    url: https://www.jpmorgan.com/technology/artificial-intelligence
+organizations: []
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -46,33 +44,20 @@ profiles:
     url: uploads/cv_alan_mishler.pdf
     label: Download CV
 
-interests:
-  - Causal Inference
-  - Algorithmic Fairness
-  - Semiparametric Inference
-  - Sequential Decision Making
-
-education:
-  - area: PhD in Statistics
-    institution: Carnegie Mellon University
-    date_end: 2021-05-01
-  - area: MS in Statistics
-    institution: Carnegie Mellon University
-    date_end: 2017-05-01
-  - area: BS in Math
-    institution: University of Maryland
-    date_end: 2016-05-01
-  - area: BA in Linguistics
-    institution: University of Michigan
-    date_end: 2009-05-01
-    
 work:
+  - position: Member of Technical Staff
+    company_name: TensorZero
+    company_url: 'https://github.com/tensorzero/tensorzero'
+    company_logo: ''
+    date_start: 2025-08-01
+    date_end: 2026-06-01
+    summary: ''
   - position: AI Research Lead/VP
     company_name: JPMorgan AI Research
     company_url: ''
     company_logo: ''
     date_start: 2024-02-01
-    date_end: ''
+    date_end: 2025-08-01
     summary: ''
   - position: Senior Researcher
     company_name: JPMorgan AI Research
@@ -118,6 +103,10 @@ work:
 
 ## About
 
-I am an AI Research Lead/VP at JPMorgan AI Research in New York City. My recent research spans problems in causal inference, optimal adaptive experimental design, and algorithmic fairness. Prior to joining J.P. Morgan, I was a PhD student in the Department of Statistics & Data Science at Carnegie Mellon University, where I worked with <a href="http://www.ehkennedy.com/">Edward Kennedy</a> and <a href="https://www.microsoft.com/en-us/research/people/alexandrac/">Alexandra Chouldechova</a> on causal inference problems related to algorithmic fairness.
+I am an ML/AI researcher and engineer with experience shipping production systems across LLM optimization, adaptive experimentation, causal inference, and financial ML.
 
-During my PhD, I completed summer internships in data science at Google (in 2018 and 2019) and Box (in 2017). Before starting my PhD, I worked as a Senior Faculty Research Specialist at the Center for Advanced Study of Language at the University of Maryland, where I conducted research in areas such as psycholinguistics, speech perception, and signal detection theory.
+Most recently, I was a Member of Technical Staff at <a href="https://github.com/tensorzero/tensorzero">TensorZero</a>, a leading open-source LLMOps platform, where I designed and shipped algorithms for optimizing agents, including multi-armed bandits for adaptive A/B/n testing, top-$k$ arm identification, and automated evaluation systems, grounded in rigorous statistical theory.
+
+Prior to TensorZero, I spent four years at <a href="https://www.jpmorganchase.com/about/technology/research/ai">JPMorgan AI Research</a>, most recently as AI Research Lead/VP, conducting research across adaptive experimentation, causal inference, algorithmic fairness, and uncertainty quantification, and shipping production ML models for pricing and causal inference applications.
+
+I received my PhD in Statistics & Data Science from Carnegie Mellon University, where I worked with <a href="http://www.ehkennedy.com/">Edward Kennedy</a> and <a href="https://www.microsoft.com/en-us/research/people/alexandrac/">Alexandra Chouldechova</a> on problems at the intersection of causal inference and algorithmic fairness.
