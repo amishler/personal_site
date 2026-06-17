@@ -15,9 +15,9 @@ sections:
       username: alan-mishler
       text: ""
       # Show a call-to-action button under your biography? (optional)
-#      button:
-#        text: Download CV
-#        url: uploads/cv_alan_mishler.pdf
+      button:
+        text: Download Resume
+        url: uploads/resume_alan_mishler.pdf
     design:
       columns: '1'
       background:
